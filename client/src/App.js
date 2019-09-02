@@ -33,11 +33,7 @@ class App extends Component {
         .call()
         .catch(err => console.log(err));
       await instance.methods
-        .setTransaction(
-          "0x2D7E41F0621De0c0a79C7fB6a20E535F109CDA48",
-          "0x984929729c964e025a339Fd54a1d17A658339C18",
-          33
-        )
+        .setTransaction("add1", "add2", 33)
         .send({ from: accounts[0] });
       let transactions = [];
       for (let i = 0; i < length; i++) {

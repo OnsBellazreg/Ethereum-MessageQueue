@@ -2,9 +2,8 @@ const path = require("path");
 require("dotenv").config();
 
 var HDWalletProvider = require("truffle-hdwallet-provider");
-var infura_apikey = "90c8b1a2f05f49a78dacd27f64644ac2";
-var mnemonic =
-  "snake marine topic grunt village intact group soon giggle reform proud utility";
+var infura_apikey = "Infura api key";
+var mnemonic = "metamask key";
 
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
